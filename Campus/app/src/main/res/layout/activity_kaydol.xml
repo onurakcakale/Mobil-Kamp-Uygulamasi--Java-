@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".KaydolActivity">
+    
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="91dp"
+        android:src="@drawable/logocampus"/>
+
+    <EditText
+        android:id="@+id/edt_Email_kaydol"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="E-Posta"
+        android:textColorHint="@color/Brown2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/edt_kullaniciAdi_kaydol"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı adı"
+        android:textColorHint="@color/Brown2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edt_Ad_kaydol"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Adı"
+        android:textColorHint="@color/Brown2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edt_soyAd_kaydol"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Soyadı"
+        android:textColorHint="@color/Brown2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edt_Sifre_kaydol"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Şifre"
+        android:textColorHint="@color/Brown2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btn_kaydol_activity_kaydol"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:text="Kaydol"
+        android:backgroundTint="@color/Green2"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/White"/>
+
+    <TextView
+        android:id="@+id/txt_Giris_git_kaydol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zaten bir hesabınız var mı? Giriş yapın.."
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+</LinearLayout>

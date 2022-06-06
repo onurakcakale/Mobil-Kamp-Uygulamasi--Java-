@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="91dp"
+        android:src="@drawable/logocampus"/>
+
+    <EditText
+        android:id="@+id/edt_email_giris"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textColorHint="@color/Brown2"
+        android:hint="E-Posta"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edt_Sifre_giris"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textColorHint="@color/Brown2"
+        android:hint="Şifre"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:text="Giriş Yap"
+        android:id="@+id/btn_giris"
+        android:textColor="@color/White"
+        android:backgroundTint="@color/Green2"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_Kaydol_git_giris"
+        android:text="Mevcut bir hesabın yok mu? Kayıt ol.."
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+</LinearLayout>

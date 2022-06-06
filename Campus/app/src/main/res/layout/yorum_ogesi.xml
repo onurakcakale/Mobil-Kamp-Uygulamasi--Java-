@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txt_kullanici_adi_yorumOgesi"
+        android:text="kullaniciadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:paddingTop="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="@color/Black"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_kullanici_adi_yorumOgesi">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_yorumOgesi"
+            android:textSize="15dp"
+            android:maxLines="50"
+            android:paddingBottom="10dp"
+            android:text="Yorum Burada Görünecek"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/DarkGray"
+            android:layout_below="@+id/bar_soyadi_profil"/>
+    </LinearLayout>
+</RelativeLayout>

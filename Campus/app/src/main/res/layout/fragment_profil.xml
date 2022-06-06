@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cerceve.ProfilFragment">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar_ProfilFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:src="@drawable/logocampus"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="150dp"
+                android:layout_height="40dp"/>
+
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/bar_Email_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bar_ProfilFragment"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:id="@+id/e_mail"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="E-Mail Adresi"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_below="@+id/e_mail"
+            android:id="@+id/txt_email_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:paddingTop="5dp"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/DarkGray"
+        android:layout_below="@+id/bar_Email_profil"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <RelativeLayout
+        android:id="@+id/bar_kullanici_adi_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bar_Email_profil"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:id="@+id/k_adi"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Kullanıcı Adı"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_below="@+id/k_adi"
+            android:id="@+id/txt_kullanici_adi_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:paddingTop="5dp"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/DarkGray"
+        android:layout_below="@+id/bar_kullanici_adi_profil"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <RelativeLayout
+        android:id="@+id/bar_adi_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bar_kullanici_adi_profil"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Adı"
+            android:id="@+id/adi"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/txt_adi_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adi"
+            android:textSize="16dp"
+            android:layout_margin="1dp"
+            android:paddingTop="5dp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/DarkGray"
+        android:layout_below="@+id/bar_adi_profil"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <RelativeLayout
+        android:id="@+id/bar_soyadi_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bar_adi_profil"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Soyadı"
+            android:id="@+id/soyadi"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/txt_soyadi_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/soyadi"
+            android:textSize="16dp"
+            android:layout_margin="1dp"
+            android:paddingTop="5dp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/DarkGray"
+        android:layout_below="@+id/bar_soyadi_profil"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bar_soyadi_profil"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/cikis_yap_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Çıkış Yap"
+            android:textColor="@color/IndianRed"
+            android:backgroundTint="@color/White"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>
